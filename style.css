@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body{
     background-color: #dbe5f9;
 }
 .card{
     height: 600px;
     width: 300px;
-    background-color: rgb(174, 210, 252);
+    background-color: rgba(17, 25, 40, 0.25);
     padding: 20px;
     margin: 20px;
     border-radius: 12px;
@@ -20,6 +21,8 @@ body{
 .car-name{
     text-align: center;
     font-size: 35px;
+    font-family: 'Righteous', sans-serif;
+    text-transform: uppercase;
 }
 .car-description{
     text-align: justify;
