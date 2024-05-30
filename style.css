@@ -45,3 +45,6 @@ body{
     padding: 10px;
     background-color: transparent;
 }
+.btn:hover{
+    transform: scale(1.1);
+}
