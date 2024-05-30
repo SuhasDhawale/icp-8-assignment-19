@@ -1,16 +1,26 @@
 body{
-    background-color: #f5f7fb;
+    background-color: #dbe5f9;
 }
 .card{
     height: 600px;
     width: 300px;
-    background-color: rgb(251, 14, 14);
+    background-color: rgb(174, 210, 252);
     padding: 20px;
     margin: 20px;
+    border-radius: 12px;
 }
 .car-img{
     height: 340px;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255);
+}
+.car-name{
+    text-align: center;
+    font-size: 35px;
+}
+.car-description{
+    text-align: justify;
 }
