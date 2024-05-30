@@ -27,11 +27,15 @@ body{
 .car-description{
     text-align: justify;
 }
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .btn{
     border: 1px solid black;
     border-radius: 24px;
     font-size: 15px;
     padding: 10px;
     background-color: transparent;
-    margin-left: 85px;
 }
