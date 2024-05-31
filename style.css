@@ -60,7 +60,6 @@ body{
     }
     .card{
         height: 520px;
-        width: 100%;
         background-color: rgba(17, 25, 40, 0.25);
         padding: 20px;
         border-radius: 12px;
