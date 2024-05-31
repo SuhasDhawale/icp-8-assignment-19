@@ -81,3 +81,38 @@ body{
         font-size: medium;
     }
 }
+/* Normal Devices */
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 670px;
+        width: 400px;
+        background-color: rgba(17, 25, 40, 0.25);
+        padding: 20px;
+        margin: 20px;
+        border-radius: 12px;
+    }
+    .car-img{
+        height: 450px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 12px;
+        border: 1px solid rgba(255,255,255, 0.255);
+    }
+    .car-name{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Righteous', sans-serif;
+        text-transform: uppercase;
+    }
+    .car-description{
+        text-align: justify;
+    }
+}
